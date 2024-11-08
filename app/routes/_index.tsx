@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import { HeroSection } from "~/components/Hero";
 import Navbar from "~/components/Navbar";
+import { About } from "~/components/about-me";
 
 export const meta: MetaFunction = () => {
   return [
@@ -20,6 +21,7 @@ export default function Index() {
       <div className="container mx-auto px-8">
         <Navbar />
         <HeroSection />
+        <About />
       </div>
     </div>
   );
