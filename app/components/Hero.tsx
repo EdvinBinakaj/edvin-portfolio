@@ -52,7 +52,7 @@ export function HeroSection() {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src="/public/kevinRushProfile.png"
+              src="/kevinRushProfile.png"
               alt="Photo of Edvin Binakaj"
             />
           </div>
