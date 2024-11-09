@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import { Contact } from "~/components/Contact";
 import { Experience } from "~/components/Experience";
 import { HeroSection } from "~/components/Hero";
 import Navbar from "~/components/Navbar";
@@ -28,6 +29,7 @@ export default function Index() {
         <Technologies />
         <Experience />
         <Projects />
+        <Contact />
       </div>
     </div>
   );
